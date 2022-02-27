@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <script>
+        // showMessage() 
+        function showMessage1() {
+            return `\"hello,stranger!\"`
+
+        }
+        console.log(showMessage1());
+        // 
+        function showMessage2(name) {
+            return '您好' + name
+        }
+        document.write(showMessage2('Ann'));
+        // 
+        var showMessage = function (name) {
+            document.write('您好'+ name )
+        }
+        setTimeout(function(){showMessage('Anna')},1000)
+
+        // 
+
+        var temp = prompt('请输入您的体温')
+
+        function temperatureBodyDetection(success, fail) {
+            if (temp >= 36 && temp <= 38) {
+                success();
+            } else {
+                fail();
+            }
+        }
+        var success = function () {
+            document.write('体温正常，打卡成功！')
+        }
+        var fail = function () {
+            document.write('体温异常，打卡失败！')
+        }
+        temperatureBodyDetection(success, fail);
+
+
+    </script>
+</body>
+
+</html>
