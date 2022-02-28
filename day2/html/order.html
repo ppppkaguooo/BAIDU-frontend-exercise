@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Forms Review</title>
+</head>
+
+<body>
+    <section id="overlay">
+
+        <p id="logo">Order your milktea!</p>
+        <hr>
+        <form action="submission.html" method="post">
+            <div>
+
+                <label for="taste">你想要什么口味的奶茶?</label>
+                <input type='text' id="taste" minlength="2" maxlength="10" required>
+            </div>
+            <hr>
+
+            <div>
+                <label for="number">你想要几杯?</label>
+                <input type="number" id="number"  min="1" max="4" required>
+            </div>
+            <hr>
+
+            <div>
+                <label>你需要的糖分量</label>
+                无糖<input type="range" name="sugar" id="sugar" min="1" max="5">全糖
+            </div>
+            <hr>
+
+            <div>
+                <label>你想要什么顶料?</label><hr>
+                <input type="checkbox" name="icecream" id="icecream"><label for="icecream">冰淇淋</label>
+                <input type="checkbox" name="milktop" id="milktop"> <label for="milktop">奶盖</label> 
+                <input type="checkbox" name="coco" id="coco"><label id="coco">可可粉</label> 
+              </div><hr>
+
+              <div>
+                <label for="iceChoice">你需要加冰吗？</label><br>
+                Yes<input type="radio" id="iceChoice" name="iceChoice">
+                No<input type="radio" id="iceChoice" name="iceChoice">
+              </div><hr>
+
+              <div>
+                <label for="bubble">你需要加什么料?</label>
+                <select id="bubble">
+                  <option value="zhenzhu">珍珠</option>
+                  <option value="zhenzhu">波霸</option>
+                  <option value="zhenzhu">布丁</option>
+                </select>
+              </div><hr>
+
+              
+        <div>
+            <label for="bubble">你要什么规格?</label>
+            <select id="bubble">
+              <option value="zhenzhu">小杯</option>
+              <option value="zhenzhu">中杯</option>
+              <option value="zhenzhu">大杯</option>
+            </select>
+          </div><hr>
+  
+          <div>
+            <label for="others">您还有别的什么要求吗?</label><br>
+            <textarea id="others" cols="30" rows="3"></textarea>
+          </div><hr>
+  
+          <div>
+            <label for="phone">您的联系方式</label><br>
+           <input type="text" id="phone" > 
+          </div><hr>
+  
+          <div>
+            <input type="submit" value="submit">
+          </div><hr>
+
+
+        </form>
+
+    </section>
+</body>
+
+</html>
