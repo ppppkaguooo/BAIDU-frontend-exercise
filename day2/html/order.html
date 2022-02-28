@@ -17,13 +17,13 @@
             <div>
 
                 <label for="taste">你想要什么口味的奶茶?</label>
-                <input type='text' id="taste" minlength="2" maxlength="10" required>
+                <input type='text' id="taste" name="taste" minlength="2" maxlength="10" required>
             </div>
             <hr>
 
             <div>
                 <label for="number">你想要几杯?</label>
-                <input type="number" id="number"  min="1" max="4" required>
+                <input type="number" id="number" name="number" min="1" max="4" required>
             </div>
             <hr>
 
@@ -48,31 +48,31 @@
 
               <div>
                 <label for="bubble">你需要加什么料?</label>
-                <select id="bubble">
+                <select id="bubble" name="bubble">
                   <option value="zhenzhu">珍珠</option>
-                  <option value="zhenzhu">波霸</option>
-                  <option value="zhenzhu">布丁</option>
+                  <option value="boba">波霸</option>
+                  <option value="buding">布丁</option>
                 </select>
               </div><hr>
 
               
         <div>
-            <label for="bubble">你要什么规格?</label>
-            <select id="bubble">
-              <option value="zhenzhu">小杯</option>
-              <option value="zhenzhu">中杯</option>
-              <option value="zhenzhu">大杯</option>
+            <label for="size">你要什么规格?</label>
+            <select id="size" name="size">
+              <option value="small">小杯</option>
+              <option value="middle">中杯</option>
+              <option value="big">大杯</option>
             </select>
           </div><hr>
   
           <div>
             <label for="others">您还有别的什么要求吗?</label><br>
-            <textarea id="others" cols="30" rows="3"></textarea>
+            <textarea id="others" name="others" cols="30" rows="3"></textarea>
           </div><hr>
   
           <div>
             <label for="phone">您的联系方式</label><br>
-           <input type="text" id="phone" > 
+           <input type="text" id="phone" name="phone" required pattern="1[0-9]{10}"> 
           </div><hr>
   
           <div>
