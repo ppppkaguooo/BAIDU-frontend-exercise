@@ -5,13 +5,13 @@
 练习题来自：[百度前端学园练习](http://ife.baidu.com/introduction/)
 
 ## day 01
-HTML [水的blog](https://github.com/ppppkaguooo/BAIDU-frontend-exercise/blob/master/day1/blog.html)
+HTML [文字排版综合任务练习](https://github.com/ppppkaguooo/BAIDU-frontend-exercise/blob/master/day1/blog.html "水的blog")
 
 
-JS [基础](https://github.com/ppppkaguooo/BAIDU-frontend-exercise/blob/master/day1/js-test.html)
+JS [数据类型与变量](https://github.com/ppppkaguooo/BAIDU-frontend-exercise/blob/master/day1/js-test.html)
 
 
 ## day 02
-HTML [奶茶点单表单](https://github.com/ppppkaguooo/BAIDU-frontend-exercise/tree/master/day2/html "form")
+HTML [制作一个奶茶点单表](https://github.com/ppppkaguooo/BAIDU-frontend-exercise/tree/master/day2/html "form")
 
-JS [体温判断](https://github.com/ppppkaguooo/BAIDU-frontend-exercise/blob/master/day2/temp.html)
+JS [使用函数创建模块化代码](https://github.com/ppppkaguooo/BAIDU-frontend-exercise/blob/master/day2/temp.html)
