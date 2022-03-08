@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // DOM学得稀烂 麻了
+        var height = document.getElementsByName("height").value;
+        var weight = document.getElementsByName("weight").value;
+
+        function calcBMI(height, weight) {
+            var BMI = weight / (height * height)
+            alert(BMI)
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <label>请输入您的身高:</label><input type="text" name="height">
+    <br>
+    <label>请输入您的体重:</label><input type="text" name="weight">
+    <br>
+    <button>开始测量您的体型</button>
+    <p id="result"></p>
+
+</body>
+
+</html>
